@@ -1,0 +1,93 @@
+/* this file is loaded by index.html and styles the page */
+
+* {
+  box-sizing: border-box;
+  font-family: 'IBM Plex Mono', monospace;
+  background: #F19CC5;
+}
+.underline{
+  border-bottom: 5px solid #8EE3C8;
+}
+.underline:hover, .underine:active{
+  background-color: #8EE3C8;
+}
+
+@media (min-width: 480px){
+  body{
+    padding-left: 30%;
+  }
+}
+
+body {
+  font-family: sans-serif;
+  margin: 2em 1em;
+  line-height: 1.5em;
+}
+
+h1{
+  width: 350px;
+}
+
+h1, h2, p, li {
+  color: #4545CC;
+  max-width: calc(100% - 5rem);
+  line-height: 1.1;
+  font-weight: bolder;
+}
+
+label{
+  color: #4545CC;
+  font-weight: bolder;
+}
+
+form {
+  background-color: #8EE3C8;
+  display: grid;
+  grid-gap: 1em;
+  padding: 1em;
+  max-width: 40ch;
+}
+
+input {
+  background-color: #fff;
+  border: 2px solid #4545CC;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+input:focus{
+ margin: 10px;
+  width: 200px;
+  border: 4px solid #4545CC;
+  -webkit-box-shadow: 1px 2px 63px 13px rgba(69,69,204,1);
+-moz-box-shadow: 1px 2px 63px 13px rgba(69,69,204,1);
+box-shadow: 1px 2px 63px 13px rgba(69,69,204,1);
+}
+
+label{
+  background-color: #8EE3C8;
+}
+
+form button {
+  background-color: #bbbbf2;
+  border: 2px solid #4545CC;
+  border-radius: .25em;
+  cursor: pointer;
+  font-size: inherit;
+  line-height: 1.4em;
+  padding: 0.25em 1em;
+  max-width: 20ch;
+}
+
+form button:hover {
+  background-color: lavender;
+}
+
+footer {
+  margin-top: 3em;
+  padding-top: 1.5em;
+  border-top: 1px solid lightgrey;
+}
