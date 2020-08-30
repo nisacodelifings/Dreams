@@ -62,9 +62,6 @@ input:focus{
  margin: 10px;
   width: 200px;
   border: 4px solid #4545CC;
-  -webkit-box-shadow: 1px 2px 63px 13px rgba(69,69,204,1);
--moz-box-shadow: 1px 2px 63px 13px rgba(69,69,204,1);
-box-shadow: 1px 2px 63px 13px rgba(69,69,204,1);
 }
 
 label{
